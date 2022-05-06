@@ -1,0 +1,27 @@
+{
+	"name": "yng/event",
+	"license": "Apache-2.0",
+	"description": "Event based on the PSR-14 specification",
+	"homepage": "https://www.chinaqe.cn",
+	"keywords": [
+		"event",
+		"psr-14"
+	],
+	"authors": [
+		{
+			"name": "yng",
+			"homepage": "https://www.chinaqe.cn"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Yng\\Event\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.4|^8.0",
+		"psr/event-dispatcher": "^1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
